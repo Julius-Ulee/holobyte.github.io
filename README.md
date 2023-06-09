@@ -1,3 +1,3 @@
 # holobyte.github.io
 Holobyte Hunted
-![image](screenshots/holobyte.blog.png)
+![image](screenshots/holobyte.blog.jpg)
