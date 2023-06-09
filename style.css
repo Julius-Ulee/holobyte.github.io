@@ -1,0 +1,20 @@
+#wrapper {
+  margin: auto;
+  width: 400px;
+  padding: 10px;
+}
+
+#wrapper h1 {
+  text-align: center;
+}
+
+.emoji {
+  --image-url: url("data:image/svg+xml,%3Csvg width='150px' height='150px' xmlns='http://www.w3.org/2000/svg'%3E%3CclipPath id='emojiClipPath'%3E%3Ctext x='0' y='130px' font-size='130px'%3E🦖%3C/text%3E%3C/clipPath%3E%3Ctext x='0' y='130px' font-size='130px' clip-path='url(%23emojiClipPath)'%3E🦖%3C/text%3E%3C/svg%3E");
+  background-image: var(--image-url);
+  float: right;
+  shape-outside: var(--image-url);
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  margin-left: -6px;
+}
